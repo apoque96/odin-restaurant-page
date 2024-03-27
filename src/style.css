@@ -1,0 +1,76 @@
+@font-face {
+  font-family: "Adine-Kirnberg";
+  src: url("./Adine-Kirnberg.ttf") format("truetype"),
+    url("./AdineKirnberg-Alternate.ttf") format("ttf");
+}
+
+body {
+  margin: 0;
+  background-color: rgb(221, 221, 221);
+}
+
+nav {
+  position: fixed;
+  width: 100vw;
+  top: 0;
+  display: flex;
+  height: 10vh;
+  justify-content: space-evenly;
+  align-items: center;
+  background-color: black;
+}
+
+.btn {
+  border: 0;
+  background-color: black;
+  color: white;
+  font-size: large;
+  font-weight: 1000;
+  opacity: 0.9;
+}
+
+.btn:hover {
+  opacity: 1;
+}
+
+.btn:active {
+  opacity: 0.6;
+}
+
+#content {
+  width: 40vw;
+  border-radius: 15px;
+  background-color: rgb(251, 251, 251);
+  display: flex;
+  margin: 15vh auto;
+  flex-direction: column;
+}
+
+h1 {
+  font-family: "Adine-Kirnberg", sans-serif;
+  font-size: 6em;
+  font-weight: 500;
+  margin-bottom: 12px;
+  text-align: center;
+}
+
+h2 {
+  font-family: "Adine-Kirnberg", sans-serif;
+  font-size: 3em;
+  font-weight: 500;
+  text-align: center;
+  margin-bottom: 12px;
+}
+
+.pizza {
+  margin: 0 20%;
+  margin-bottom: 24px;
+  width: 60%;
+  height: auto;
+}
+
+p {
+  font-family: "Times New Roman", Times, serif;
+  margin: 0 20px 24px 20px;
+  text-align: center;
+}
